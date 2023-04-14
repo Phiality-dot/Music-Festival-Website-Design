@@ -1,0 +1,223 @@
+/* Styling for navbar */
+/* Reset margin and padding for body element */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, sans-serif;
+  font-style: italic;
+}
+body {
+  background-image: url("./joshua-fuller-_I5DYcYuo6c-unsplash\ 1.png");
+  background-attachment: fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e20000;
+  padding: 10px;
+  border-bottom-left-radius: 39deg;
+  border-bottom-right-radius: 39deg;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 28px;
+}
+
+.burger {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for burger menu */
+.navbar-menu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu ul li {
+  padding: 5px 0;
+}
+
+/* Show/hide burger menu on click */
+.burger:focus + .navbar-menu,
+.navbar-menu:focus-within {
+  display: block;
+}
+.container {
+  margin-top: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #114f89;
+  height: 650px;
+  width: 85%;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 212px auto;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+  width: 742px;
+  padding: 63px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.button {
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e20000;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 149px;
+  width: 100%;
+  margin-bottom: 13px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 597px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.map {
+  height: 400px;
+  width: 597px;
+  border-radius: 25px;
+}
+
+.bottom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00b2ff;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100px;
+  width: 100%;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 39px;
+  color: #ffffff;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text {
+  display: inline;
+  font-size: 34px;
+  color: #fff;
+  margin-top: 17%;
+  position: absolute;
+}
+h3 {
+  /* The Line-Up: */
+
+  position: absolute;
+  left: 45%;
+  top: 100%;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: rgba(255, 0, 138, 0.9);
+  text-shadow: 0px 0px 3.5px #000000;
+  text-align: center;
+
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+
+  color: rgba(255, 0, 138, 0.9);
+
+  text-shadow: 0px 0px 3.5px #000000;
+}
+img {
+    display: flex;
+  width: 410px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+.genre-container { 
+    margin-top: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #114f89;
+  height: 200px;
+  width: 85%;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 212px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+}
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+  }
+  
+  .centered-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 290px;
+  }
+  
